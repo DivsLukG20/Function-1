@@ -38,14 +38,18 @@ Look at this tutorial for more information: https://amirmustafaofficial.medium.c
    ```bash
    func start
    ```
+   ![Screenshot 2024-09-30 123414](https://github.com/user-attachments/assets/7b76dc17-0590-4d53-9f2e-fb85572ba2fd)
+   ![Screenshot 2024-09-30 123438](https://github.com/user-attachments/assets/0ec46a6c-b976-427c-8bcc-15ecab9eec60)
 
-2. Access the API endpoint to get the most recent log entries:
+
+3. Access the API endpoint to get the most recent log entries:
 
    ```bash
    http://localhost:7071/api/HttpTrigger1?id=1&dateTime=2024-09-2912:00:00&severity=high
    ```
+   
 
-3. The response will return a JSON array of the log entry.
+4. The response will return a JSON array of the log entry.
 
    ```bash
    {
@@ -55,8 +59,8 @@ Look at this tutorial for more information: https://amirmustafaofficial.medium.c
     "message": "ID: 123, Date and Time: 2024-09-2912:00:00 and Severity: high"
    }
    ```
+   ![Screenshot 2024-09-30 123508](https://github.com/user-attachments/assets/47c7f8dd-b98a-4faf-99b8-71ec4c8b7fd1)
 
-   ![Screenshot 2024-09-30 122219](https://github.com/user-attachments/assets/cdbce60e-c982-4602-8c65-33f5b1cca87e)
 
 
 ## Error Handling
